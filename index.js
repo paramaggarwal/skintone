@@ -13,7 +13,7 @@
  */
 
 
-function isSkin (red, green, blue) {
+function isSkin (r, g, b) {
 
   // classify based on RGB
   var rgbClassifier = ((r > 95) && (g > 40 && g < 100) && (b > 20) && ((Math.max(r, g, b) - Math.min(r, g, b)) > 15) && (Math.abs(r - g) > 15) && (r > g) && (r > b));
