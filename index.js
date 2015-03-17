@@ -42,7 +42,7 @@ function isSkin (red, green, blue) {
   if (h < 0) {
     h = h + 360;
   }
-  var s = 1 - (3 * ((Math.min(r, g, b)) / (r + g + b))), (1 / 3) * (r + g + b);
+  var s = 1 - (3 * ((Math.min(r, g, b)) / (r + g + b)));
   var hsvClassifier = (h > 0 && h < 35 && s > 0.23 && s < 0.68);
 
   // match either of the classifiers
