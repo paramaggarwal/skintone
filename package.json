@@ -1,6 +1,6 @@
 {
   "name": "skintone",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "homepage": "https://github.com/paramaggarwal/skintone",
   "description": "Detect if a color value is a shade of skin.",
   "main": "index.js",
