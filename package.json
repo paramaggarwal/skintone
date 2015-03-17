@@ -1,0 +1,22 @@
+{
+  "name": "skintone",
+  "version": "0.0.1",
+  "homepage": "https://github.com/paramaggarwal/skintone",
+  "description": "Detect if a color value is a shade of skin.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "skin",
+    "skintone",
+    "detect",
+    "color",
+    "colour",
+    "nudity",
+    "flesh"
+  ],
+  "repository": "https://github.com/paramaggarwal/skintone.git",
+  "author": "Param Aggarwal",
+  "license": "MIT"
+}
