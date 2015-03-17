@@ -15,9 +15,11 @@ var isSkin = require('skintone');
 
 // skin shade
 console.log(isSkin(194, 144, 125));
+-> true 
 
 // red apple shade
-console.log(isSkin(205, 99, 96));
+console.log(isSkin(229, 13, 42));
+-> false
 
 ```
 
